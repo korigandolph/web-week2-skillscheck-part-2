@@ -6,6 +6,7 @@
 //Create an array called rubberDucks with the values "yellow",
 //"red", "blue", "brown" in the array.
 
+let rubberDucks = ['yellow', 'red', 'blue', 'brown']
 //Code here
 
 
@@ -16,13 +17,13 @@
 //What is the first numbered index of an array?
 
 // var answer = 1
-// var answer = 0
+var answer = 0
 
 //How do you access the length of an array, such as the array
 //you created above called rubberDucks?
 
 // var arrayLength = Array.length(rubberDucks)
-// var arrayLength = rubberDucks.length
+var arrayLength = rubberDucks.length
 // var arrayLength = rubberDucks.len
 // var arrayLength = rubberDucks.length()
 
@@ -34,6 +35,9 @@
 //parameter: an array, and returns the last element of the array.
 //The passed-in array should NOT be modified.
 
+function getLast(arr){
+    return getLast[getLast.length-1]
+}
 //Code here
 
 
@@ -44,6 +48,9 @@
 //at the numbered index of that array.
 //The passed-in array should NOT be modified.
 
+function getElement(arr, index){
+    return arr[i]
+}
 //Code here
 
 

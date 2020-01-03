@@ -28,7 +28,7 @@ function adventure(mode) {
 
 //What data type is the value returned by calling adventure("plane")?
 
-// var adventureReturns = "function"
+var adventureReturns = "function"
 // var adventureReturns = "string"
 // var adventureReturns = "undefined"
 // var adventureReturns = "object"
@@ -37,19 +37,19 @@ function adventure(mode) {
 //True or false: "origin" is a public variable contained within "adventure".
 
 // var originIsPublic = true
-// var originIsPublic = false
+var originIsPublic = false
 
 
 //True or false: the function returned from "adventure" is public.
 
-// var functionIsPublic = true
+var functionIsPublic = true
 // var functionIsPublic = false
 
 //True or false: the function returned from "adventure" can access
 //the parameter "mode", and the variable "origin", even after 
 //the function "adventure" has exited.
 
-// var functionCanStillAccess = true
+var functionCanStillAccess = true
 // var functionCanStillAccess = false
 
 
